@@ -1,0 +1,32 @@
+alias zshrc="nvim ~/.zshrc"
+alias zsh_als="nvim ~/.oh-my-zsh/custom/aliases.zsh"
+
+alias pacp="pacman -Qqen"
+alias aurp="pacman -Qqem"
+
+alias aconf="paru -Pg"
+alias aclean="paru -Sc"
+alias aclr="paru -Scc"
+alias ain="paru -S"
+alias ains="paru -U"
+alias ainsd="paru -S"
+alias aloc="paru -Qi"
+alias alocs="paru -Qs"
+alias alst="paru -Qe"
+alias amir="paru -Syy"
+alias aorph="paru -Qtd"
+alias are="paru -R"
+alias arem="paru -Rns"
+alias arep="paru -Si"
+alias areps="paru -Ss"
+alias aupd="paru -Sy"
+alias aupg="paru -Syu"
+alias asu="paru -Syu --no-confirm"
+
+alias hacker="cmatrix -B -m -u 5 -C white"
+alias edex="~/Downloads/eDEX-UI-Linux-x86_64.AppImage"
+
+alias ytda="cd ~/Downloads && yt-dlp --merge-output-format mp4"
+alias ytdl="cd ~/Downloads && yt-dlp --live-from-start --wait-for-video 10"
+
+alias updconf="gaa && gcmsg "update" && ggpush"
